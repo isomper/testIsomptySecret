@@ -1,0 +1,53 @@
+1497404159623	geckodriver	INFO	Listening on 127.0.0.1:50081
+1497404161698	mozprofile::profile	INFO	Using profile path C:\Users\guyaru.pc\AppData\Local\Temp\rust_mozprofile.zHCxNmv2s3ry
+1497404161698	geckodriver::marionette	INFO	Starting browser d:\Program Files (x86)\Mozilla Firefox\browser\firefox.exe
+1497404161713	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50087
+1497404163554	Marionette	INFO	Listening on port 50087
+1497404165001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://192.168.23.182/fort/login, line 35: TypeError: sso.update is not a function
+JavaScript error: https://192.168.23.182/fort//trust/js/views/operation/sso/view-notes.js, line 44: ReferenceError: sid is not defined
+[Child 760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+n/ipc_channel_win.cc, line 345
+[Child 4032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+lyWaitFor@chrome://marionette/content/element.js:593:10
+element.find/<@chrome://marionette/content/element.js:254:24
+element.find@chrome://marionette/content/element.js:253:10
+findElementContent@chrome://marionette/content/listener.js:1294:18
+TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+TaskImpl@resource://gre/modules/Task.jsm:277:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:252:14
+Task_spawn@resource://gre/modules/Task.jsm:166:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:389:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:15
+TaskImpl@resource://gre/modules/Task.jsm:277:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:252:14
+Task_spawn@resource://gre/modules/Task.jsm:166:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:284:7
+element.find/</findElements<@chrome://marionette/content/element.js:255:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:600:15
+implicitlyWaitFor/<@chrome://marionette/content/element.js:627:5
+implicitlyWaitFor@chrome://marionette/content/element.js:593:10
+element.find/<@chrome://marionette/content/element.js:254:24
+element.find@chrome://marionette/content/element.js:253:10
+findElementContent@chrome://marionette/content/listener.js:1294:18
+TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+TaskImpl@resource://gre/modules/Task.jsm:277:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:252:14
+Task_spawn@resource://gre/modules/Task.jsm:166:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:389:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:15
+TaskImpl@resource://gre/modules/Task.jsm:277:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:252:14
+Task_spawn@resource://gre/modules/Task.jsm:166:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************

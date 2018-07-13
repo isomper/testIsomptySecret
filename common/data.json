@@ -1,0 +1,12 @@
+{
+    "APP":{"appip":"192.168.23.23"},
+    "BROWER":[
+                {"ip":"1.1.1.1","port":1,"type":"chrome"},
+                {"ip":"1.1.1.1","port":2,"type":"internet explorer"},
+                {"ip":"1.1.1.1","port":3,"type":"firefox"},
+       {"detailType":"ie9","ip":"192.168.23.53","port":8888,"type":"internet explorer"},
+       {"detailType":"chrome","ip":"192.168.23.53","port":6666,"type":"chrome"}
+                              
+            ]
+}
+
